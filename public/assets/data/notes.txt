@@ -1,0 +1,56 @@
+For Product Page:
+- No need to add delivery address and contact info. This should come while 
+ placing the order so ignore for now.
+
+For Pastries, cupcakes, brownies, teacakes, cookies:
+quantity - number of pieces. Max quantity - 10. Also serving info not 
+needed for these. No need for message as well.
+
+For Full Cakes:
+Quantity - Weight and number as well. Servings info needed
+Weight determines the base price. Message optional.
+
+For Occasion cakes:
+Quantiy - weight and number. Serving info needed. Also additional flavor.
+Message optional. Weight determines the base price.
+
+
+Things that need work:
+
+NAvbar responsive -> important!
+Banners lazy loading  -> important! -> kinda done ( reduced image sizes)
+color scheme and nav logo redesign -> important
+Product Magnify not working -> important
+Category page side banner - resize + change banner with link -> kinda done ( created 2 banners for menu link)
+Responsive behavior -> important -> almost done
+Homepage custom form on submit and negative checks
+
+
+//Less important
+Product page - ontime deliver, fssai stuff
+Make the Database entries proper
+
+
+Search Bar -> important ! -> done
+Cart hover / indicate items present -> important -> done
+Product page negative checks -> important -> made init for mandatory fields so no need for neg check -> done
+
+
+Responsive design:
+
+Category Page:
+    grid- done
+    images - TBD
+
+SearchResultsPage:
+    grid - done
+    empty - done
+
+CartPage:
+    empty - done
+    items added - done
+
+Homepage:
+
+ProductPage:
+    contents - done for now.

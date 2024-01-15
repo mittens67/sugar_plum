@@ -1,0 +1,561 @@
+{
+	"0": {
+		"id": 0,
+		"itemName": "Red Velvet Pastry",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "160",
+		"description": "Indulge in the comforting decadence of our Red Velvet Pastry. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/redVelvetPastry_large.png",
+		"imageSmall": "/assets/products/redVelvetPastry_small.png",
+		"imageMedium": "/assets/products/redVelvetPastry_medium.png",
+		"avgRating": 4.7,
+		"ratings": 1804,
+		"productType": 1
+	},
+	"1": {
+		"id": 1,
+		"itemName": "Butterscotch Pastry",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "160",
+		"description": "Indulge in the comforting decadence of our Butterscotch Pastry. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/butterscotchPastry_large.png",
+		"imageSmall": "/assets/products/butterscotchPastry_small.png",
+		"imageMedium": "/assets/products/butterscotchPastry_medium.png",
+		"avgRating": 4.9,
+		"ratings": 967,
+		"productType": 1
+	},
+	"2": {
+		"id": 2,
+		"itemName": "Chocolate Pastry",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "180",
+		"description": "Indulge in the comforting decadence of our Chocolate Pastry. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/chocolatePastry_large.png",
+		"imageSmall": "/assets/products/chocolatePastry_small.png",
+		"imageMedium": "/assets/products/chocolatePastry_medium.png",
+		"avgRating": 4.9,
+		"ratings": 700,
+		"productType": 1
+	},
+	"3": {
+		"id": 3,
+		"itemName": "Mango Pastry",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "180",
+		"description": "Indulge in the comforting decadence of our Mango Pastry. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/mangoPastry_large.png",
+		"imageSmall": "/assets/products/mangoPastry_small.png",
+		"imageMedium": "/assets/products/mangoPastry_medium.png",
+		"avgRating": 4.8,
+		"ratings": 574,
+		"productType": 1
+	},
+	"4": {
+		"id": 4,
+		"itemName": "Strawberry Cheese Pastry",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4"
+		},
+		"basePrice": "200",
+		"description": "Indulge in the comforting decadence of our Strawberry Cheese Pastry. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/strawberryCheesePastry_large.png",
+		"imageSmall": "/assets/products/strawberryCheesePastry_small.png",
+		"imageMedium": "/assets/products/strawberryCheesePastry_medium.png",
+		"avgRating": 4,
+		"ratings": 368,
+		"productType": 1
+	},
+	"5": {
+		"id": 5,
+		"itemName": "Red Velvet Cupcake",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "85",
+		"description": "Indulge in the comforting decadence of our Red Velvet Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/redVelvetCupCake_large.png",
+		"imageSmall": "/assets/products/redVelvetCupCake_small.png",
+		"imageMedium": "/assets/products/redVelvetCupCake_medium.png",
+		"avgRating": 4.7,
+		"ratings": 818,
+		"productType": 1
+	},
+	"6": {
+		"id": 6,
+		"itemName": "Blueberry Cupcake",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "90",
+		"description": "Indulge in the comforting decadence of our Blueberry Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/blueberryCupCake_large.png",
+		"imageSmall": "/assets/products/blueberryCupCake_small.png",
+		"imageMedium": "/assets/products/blueberryCupCake_medium.png",
+		"avgRating": 3.8,
+		"ratings": 457,
+		"productType": 1
+	},
+	"7": {
+		"id": 7,
+		"itemName": "Chocolate Cupcake",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "80",
+		"description": "Indulge in the comforting decadence of our Chocolate Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/chocolateCupCake_large.png",
+		"imageSmall": "/assets/products/chocolateCupCake_small.png",
+		"imageMedium": "/assets/products/chocolateCupCake_medium.png",
+		"avgRating": 4.5,
+		"ratings": 670,
+		"productType": 1
+	},
+	"8": {
+		"id": 8,
+		"itemName": "Oreo Cupcake",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "90",
+		"description": "Indulge in the comforting decadence of our Oreo Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/oreoCupCake_large.png",
+		"imageSmall": "/assets/products/oreoCupCake_small.png",
+		"imageMedium": "/assets/products/oreoCupCake_medium.png",
+		"avgRating": 4.2,
+		"ratings": 783,
+		"productType": 1
+	},
+	"9": {
+		"id": 9,
+		"itemName": "Vanilla Cupcake",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "90",
+		"description": "Indulge in the comforting decadence of our Vanilla Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/vanillaCupCake_large.png",
+		"imageSmall": "/assets/products/vanillaCupCake_small.png",
+		"imageMedium": "/assets/products/vanillaCupCake_medium.png",
+		"avgRating": 3.9,
+		"ratings": 609,
+		"productType": 1
+	},
+	"10": {
+		"id": 10,
+		"itemName": "Fudgy Walnut Brownie",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "90",
+		"description": "Indulge in the comforting decadence of our Vanilla Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/fudgyWalnutBrownie_large.png",
+		"imageSmall": "/assets/products/fudgyWalnutBrownie_small.png",
+		"imageMedium": "/assets/products/fudgyWalnutBrownie_medium.png",
+		"avgRating": 4,
+		"ratings": 560,
+		"productType": 1
+	},
+	"11": {
+		"id": 11,
+		"itemName": "Choco Millionaire Brownie",
+		"packageSize": {
+			"1 Piece": "1",
+			"2 Pieces": "2",
+			"3 Pieces": "3",
+			"4 Pieces": "4",
+			"6 Pieces": "6"
+		},
+		"basePrice": "90",
+		"description": "Indulge in the comforting decadence of our Vanilla Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/chocoMillionaireBrownie_large.png",
+		"imageSmall": "/assets/products/chocoMillionaireBrownie_small.png",
+		"imageMedium": "/assets/products/chocoMillionaireBrownie_medium.png",
+		"avgRating": 4.3,
+		"ratings": 600,
+		"productType": 1
+	},
+	"12": {
+		"id": 12,
+		"itemName": "Choco Chip Cookie",
+		"packageSize": {
+			"1 Pack": "1",
+			"2 Packs": "2",
+			"3 Packs": "3",
+			"4 Packs": "4",
+			"6 Packs": "6"
+		},
+		"basePrice": "120",
+		"description": "Indulge in the comforting decadence of our Vanilla Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "One pack weighs 100gms. Contains milk and eggs",
+		"image": "/assets/products/chocoChipCookie_large.png",
+		"imageSmall": "/assets/products/chocoChipCookie_small.png",
+		"imageMedium": "/assets/products/chocoChipCookie_medium.png",
+		"avgRating": 4.2,
+		"ratings": 150,
+		"productType": 1
+	},
+	"13": {
+		"id": 13,
+		"itemName": "Handmade Almond Cookie",
+		"packageSize": {
+			"1 Pack": "1",
+			"2 Packs": "2",
+			"3 Packs": "3",
+			"4 Packs": "4",
+			"6 Packs": "6"
+		},
+		"basePrice": "140",
+		"description": "Indulge in the comforting decadence of our Vanilla Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "One pack weighs 100gms. Contains milk and eggs",
+		"image": "/assets/products/handmadeAlmondCookie_large.png",
+		"imageSmall": "/assets/products/handmadeAlmondCookie_small.png",
+		"imageMedium": "/assets/products/handmadeAlmondCookie_medium.png",
+		"avgRating": 4.9,
+		"ratings": 259,
+		"productType": 1
+	},
+	"14": {
+		"id": 14,
+		"itemName": "Marble Tea Cake",
+		"packageSize": {
+			"1 Cake": "1",
+			"2 Cakes": "2",
+			"3 Cakes": "3",
+			"4 Cakes": "4",
+			"6 Cakes": "6"
+		},
+		"basePrice": "230",
+		"description": "Indulge in the comforting decadence of our Vanilla Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "One cake weighs 100gms. Contains milk and eggs",
+		"image": "/assets/products/marbleTeaCake_large.png",
+		"imageSmall": "/assets/products/marbleTeaCake_small.png",
+		"imageMedium": "/assets/products/marbleTeaCake_medium.png",
+		"avgRating": 4,
+		"ratings": 358,
+		"productType": 1
+	},
+	"15": {
+		"id": 15,
+		"itemName": "Banana & Walnut Tea Cake",
+		"packageSize": {
+			"1 Cake": "1",
+			"2 Cakes": "2",
+			"3 Cakes": "3",
+			"4 Cakes": "4",
+			"6 Cakes": "6"
+		},
+		"basePrice": "230",
+		"description": "Indulge in the comforting decadence of our Vanilla Cupcake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "One cake weighs 100gms. Contains milk and eggs",
+		"image": "/assets/products/bananaAndWalnutTeaCake_large.png",
+		"imageSmall": "/assets/products/bananaAndWalnutTeaCake_small.png",
+		"imageMedium": "/assets/products/bananaAndWalnutTeaCake_medium.png",
+		"avgRating": 4.5,
+		"ratings": 218,
+		"productType": 1
+	},
+	"16": {
+		"id": 16,
+		"itemName": "Red Velvet Cake",
+		"packageSize": {
+			"0.5 Kg": "1",
+			"1.0 Kg": "2",
+			"1.5 Kg": "3",
+			"2.0 Kg": "4",
+			"3.0 Kg": "6",
+			"4.0 Kg": "8"
+		},
+		"basePrice": "600",
+		"description": "Indulge in the comforting decadence of our Red Velvet Cake. This exquisite creation features a luscious red velvet sponge layered with white cream",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/redVelvetCake_large.png",
+		"imageSmall": "/assets/products/redVelvetCake_small.png",
+		"imageMedium": "/assets/products/redVelvetCake_medium.png",
+		"avgRating": 4.5,
+		"ratings": 435,
+		"productType": 2
+	},
+	"17": {
+		"id": 17,
+		"itemName": "Butterscotch Cake",
+		"packageSize": {
+			"0.5 Kg": "1",
+			"1.0 Kg": "2",
+			"1.5 Kg": "3",
+			"2.0 Kg": "4",
+			"3.0 Kg": "6",
+			"4.0 Kg": "8"
+		},
+		"basePrice": "565",
+		"description": "Our take on the ever beloved classic butterscotch flavor! Indulge in this 3 layered cake filled with vanilla cream and butterscotch chips",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/butterscotchCake_large.png",
+		"imageSmall": "/assets/products/butterscotchCake_small.png",
+		"imageMedium": "/assets/products/butterscotchCake_medium.png",
+		"avgRating": 4,
+		"ratings": 200,
+		"productType": 2
+	},
+	"18": {
+		"id": 18,
+		"itemName": "Chocolate Truffle Cake",
+		"packageSize": {
+			"0.5 Kg": "1",
+			"1.0 Kg": "2",
+			"1.5 Kg": "3",
+			"2.0 Kg": "4",
+			"3.0 Kg": "6",
+			"4.0 Kg": "8"
+		},
+		"basePrice": "620",
+		"description": "Fulfill your chocolate cravings with this decadent chocolate cream filled 3 layer cake. Adorned with chocolate icing and rich chocolate glaze, this classic favorite will lift the spirits of any occasion.",
+		"info": "Contains cacao, milk and eggs",
+		"image": "/assets/products/chocolateCake_large.png",
+		"imageSmall": "/assets/products/chocolateCake_small.png",
+		"imageMedium": "/assets/products/chocolateCake_medium.png",
+		"avgRating": 4.4,
+		"ratings": 500,
+		"productType": 2
+	},
+	"19": {
+		"id": 19,
+		"itemName": "Black Forest Vanilla Cake",
+		"packageSize": {
+			"0.5 Kg": "1",
+			"1.0 Kg": "2",
+			"1.5 Kg": "3",
+			"2.0 Kg": "4",
+			"3.0 Kg": "6",
+			"4.0 Kg": "8"
+		},
+		"basePrice": "560",
+		"description": "A heavenly blend of chocolate and vanilla in every bite. Relish in this exquisite 3 layered delite, masterfully crafted to entice your senses with an indulgent decadent affair.",
+		"info": "Contains cacoa, milk and eggs",
+		"image": "/assets/products/vanillaBlackForestCake_large.png",
+		"imageSmall": "/assets/products/vanillaBlackForestCake_small.png",
+		"imageMedium": "/assets/products/vanillaBlackForest_medium.png",
+		"avgRating": 4,
+		"ratings": 700,
+		"productType": 2
+	},
+	"20": {
+		"id": 20,
+		"itemName": "Strawberry Cream Cake",
+		"packageSize": {
+			"0.5 Kg": "1",
+			"1.0 Kg": "2",
+			"1.5 Kg": "3",
+			"2.0 Kg": "4",
+			"3.0 Kg": "6",
+			"4.0 Kg": "8"
+		},
+		"basePrice": "600",
+		"description": "Relish in a Strawberry bonanza with our 3 layered sponge cake filled with strawberry cream and real strawberries! Topped with chocolate drizzle and strawberry fondant, we present to your every strawberry lovers ultimate love story!",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/strawberryCake_large.png",
+		"imageSmall": "/assets/products/strawberryCake_small.png",
+		"imageMedium": "/assets/products/strawberryCake_medium.png",
+		"avgRating": 3.9,
+		"ratings": 150,
+		"productType": 2
+	},
+	"21": {
+		"id": 21,
+		"itemName": "Two Tier Floral Occasion Cake",
+		"packageSize": {
+			"0.5 Kg": "1",
+			"1.0 Kg": "2",
+			"1.5 Kg": "3",
+			"2.0 Kg": "4",
+			"3.0 Kg": "6",
+			"4.0 Kg": "8"
+		},
+		"flavourOptions": {
+			"Strawberry" : "10",
+			"Vanilla" : "20",
+			"Butterscotch" : "30",
+			"Chocolate" : "40"
+		},
+		"basePrice": "1500",
+		"description": "Relish in a Strawberry bonanza with our 3 layered sponge cake filled with strawberry cream and real strawberries! Topped with chocolate drizzle and strawberry fondant, we present to your every strawberry lovers ultimate love story!",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/2TierFloralOccasionCake_large.png",
+		"imageSmall": "/assets/products/2TierFloralOccasionCake_small.png",
+		"imageMedium": "/assets/products/2TierFloralOccasionCake_medium.png",
+		"avgRating": 3.8,
+		"ratings": 28,
+		"productType": 3
+	},
+	"22": {
+		"id": 22,
+		"itemName": "Playing Cards Occasion Cake",
+		"packageSize": {
+			"0.5 Kg": "1",
+			"1.0 Kg": "2",
+			"1.5 Kg": "3",
+			"2.0 Kg": "4",
+			"3.0 Kg": "6",
+			"4.0 Kg": "8"
+		},
+		"flavourOptions": {
+			"Strawberry" : "10",
+			"Vanilla" : "20",
+			"Butterscotch" : "30",
+			"Chocolate" : "40"
+		},
+		"basePrice": "1500",
+		"description": "Relish in a Strawberry bonanza with our 3 layered sponge cake filled with strawberry cream and real strawberries! Topped with chocolate drizzle and strawberry fondant, we present to your every strawberry lovers ultimate love story!",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/playingCardsOccasionCake_large.png",
+		"imageSmall": "/assets/products/playingCardsOccasionCake_small.png",
+		"imageMedium": "/assets/products/playingCardsOccasionCake_medium.png",
+		"avgRating": 4.4,
+		"ratings": 17,
+		"productType": 3
+	},
+	"23": {
+		"id": 23,
+		"itemName": "Pearl and Rose Occasion Cake",
+		"packageSize": {
+			"0.5 Kg": "1",
+			"1.0 Kg": "2",
+			"1.5 Kg": "3",
+			"2.0 Kg": "4",
+			"3.0 Kg": "6",
+			"4.0 Kg": "8"
+		},
+		"flavourOptions": {
+			"Strawberry" : "10",
+			"Vanilla" : "20",
+			"Butterscotch" : "30",
+			"Chocolate" : "40"
+		},
+		"basePrice": "1200",
+		"description": "Relish in a Strawberry bonanza with our 3 layered sponge cake filled with strawberry cream and real strawberries! Topped with chocolate drizzle and strawberry fondant, we present to your every strawberry lovers ultimate love story!",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/pearlRoseOccasionCake_large.png",
+		"imageSmall": "/assets/products/pearlRoseOccasionCake_small.png",
+		"imageMedium": "/assets/products/pearlRoseOccasionCake_medium.png",
+		"avgRating": 4.5,
+		"ratings": 8,
+		"productType": 3
+	},
+	"24": {
+		"id": 24,
+		"itemName": "Floral Two Tier Occasion Cake",
+		"packageSize": {
+			"0.5 Kg": "1",
+			"1.0 Kg": "2",
+			"1.5 Kg": "3",
+			"2.0 Kg": "4",
+			"3.0 Kg": "6",
+			"4.0 Kg": "8"
+		},
+		"flavourOptions": {
+			"Strawberry" : "10",
+			"Vanilla" : "20",
+			"Butterscotch" : "30",
+			"Chocolate" : "40"
+		},
+		"basePrice": "1400",
+		"description": "Relish in a Strawberry bonanza with our 3 layered sponge cake filled with strawberry cream and real strawberries! Topped with chocolate drizzle and strawberry fondant, we present to your every strawberry lovers ultimate love story!",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/Floral2TierOccasionCake_large.png",
+		"imageSmall": "/assets/products/Floral2TierOccasionCake_small.png",
+		"imageMedium": "/assets/products/Floral2TierOccasionCake_medium.png",
+		"avgRating": 4.0,
+		"ratings": 90,
+		"productType": 3
+	},
+	"25": {
+		"id": 25,
+		"itemName": "White and Red Occasion Cake",
+		"packageSize": {
+			"0.5 Kg": "1",
+			"1.0 Kg": "2",
+			"1.5 Kg": "3",
+			"2.0 Kg": "4",
+			"3.0 Kg": "6",
+			"4.0 Kg": "8"
+		},
+		"flavourOptions": {
+			"Strawberry" : "10",
+			"Vanilla" : "20",
+			"Butterscotch" : "30",
+			"Chocolate" : "40"
+		},
+		"basePrice": "1200",
+		"description": "Relish in a Strawberry bonanza with our 3 layered sponge cake filled with strawberry cream and real strawberries! Topped with chocolate drizzle and strawberry fondant, we present to your every strawberry lovers ultimate love story!",
+		"info": "Contains milk and eggs",
+		"image": "/assets/products/whiteRedOccasionCake_large.png",
+		"imageSmall": "/assets/products/whiteRedOccasionCake_small.png",
+		"imageMedium": "/assets/products/whiteRedOccasionCake_medium.png",
+		"avgRating": 3.9,
+		"ratings": 10,
+		"productType": 3
+	}
+}
