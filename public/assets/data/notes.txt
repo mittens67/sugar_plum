@@ -17,14 +17,14 @@ Message optional. Weight determines the base price.
 
 Things that need work:
 
-NAvbar responsive -> important! -> kinda done, make more smooth
-Banners lazy loading  -> important! -> kinda done ( reduced image sizes)
+
+
 color scheme and nav logo redesign -> important
 Product Magnify not working -> important
 Category page side banner - resize + change banner with link -> kinda done ( created 2 banners for menu link)
-Responsive behavior -> important -> almost done
 Homepage custom form on submit and negative checks
-Footer responsive -> important! -> kinda done
+Fix security issues and check performance
+
 
 
 //Less important
@@ -33,6 +33,10 @@ Make the Database entries proper
 
 
 Search Bar -> important ! -> done
+Banners lazy loading  -> important! -> kinda done ( reduced image sizes)
+NAvbar responsive -> important! -> kinda done, make more smooth
+Responsive behavior -> important -> primary done
+Footer responsive -> important! -> kinda done
 Cart hover / indicate items present -> important -> done
 Product page negative checks -> important -> made init for mandatory fields so no need for neg check -> done
 
