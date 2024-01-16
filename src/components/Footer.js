@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-sugarplum-footer_bg flex flex-col justify-center h-80 mt-auto">
-      <div className="flex justify-around">
-        <Link to={`/`} className="flex-1 w-80">
-          <img src="/assets/Logo5.png" alt="logo" />
+    <footer className="bg-sugarplum-footer_bg flex flex-col justify-around h-72 sm:h-80 mt-auto">
+      <div className="flex flex-col sm:flex-row items-center justify-around">
+        <Link to={`/`} className="flex-1">
+          <img src="/assets/Logo5.png" alt="logo" className="w-[500px] h-[auto]"/>
         </Link>
-        <div className="flex flex-1 items-center justify-center">
-          <i className="fa-brands fa-facebook fa-2xl text-footer_pink m-5"></i>
-          <i className="fa-brands fa-square-instagram fa-2xl text-footer_pink m-5"></i>
-          <i className="fa-brands fa-square-twitter fa-2xl text-footer_pink m-5"></i>
+        <div className="flex flex-1 items-center justify-center text-sp_pink">
+          <i className="fa-brands fa-facebook fa-2xl m-5"></i>
+          <i className="fa-brands fa-square-instagram fa-2xl m-5"></i>
+          <i className="fa-brands fa-square-twitter fa-2xl m-5"></i>
         </div>
       </div>
-      <p className="text-footer_color text-center font-poppins">
-        Sugar Plum<sup className="text-xs">TM</sup> &#169;Copywrite 2024. All
+      <p className="text-footer_color text-center font-poppins text-[12px] sm:text-[14px]">
+        Sugar Plum<sup className="text-[8px] sm:text-[12px]">TM</sup> &#169;Copywrite 2024. All
         Rights Reserved.
       </p>
     </footer>

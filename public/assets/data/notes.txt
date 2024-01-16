@@ -17,13 +17,14 @@ Message optional. Weight determines the base price.
 
 Things that need work:
 
-NAvbar responsive -> important!
+NAvbar responsive -> important! -> kinda done, make more smooth
 Banners lazy loading  -> important! -> kinda done ( reduced image sizes)
 color scheme and nav logo redesign -> important
 Product Magnify not working -> important
 Category page side banner - resize + change banner with link -> kinda done ( created 2 banners for menu link)
 Responsive behavior -> important -> almost done
 Homepage custom form on submit and negative checks
+Footer responsive -> important! -> kinda done
 
 
 //Less important
@@ -51,6 +52,7 @@ CartPage:
     items added - done
 
 Homepage:
+    done kinda
 
 ProductPage:
     contents - done for now.

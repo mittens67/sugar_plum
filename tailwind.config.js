@@ -14,7 +14,7 @@ module.exports = {
           container: "#E6F2FC",
           footer_bg: "#090816",
           sp_red_pink: "#AA2A4E",
-          sp_dark_purple: "#E0EDF6"
+          sp_black: "#111111"
         }
       },
       textColor: {

@@ -33,7 +33,7 @@ const SearchBar = () => {
         onChange={(e) => {
           setSearchTerm(e.target.value);
         }}
-        className="w-96 h-8 rounded-l-lg px-4 placeholder-sp_pink focus:outline-none"
+        className="w-72 sm:w-96 h-8 rounded-l-lg px-4 placeholder-sp_pink focus:outline-none"
       />
       <button className="bg-white h-8 rounded-r-lg px-4" onClick={handleSubmit}>
         <i className="fa fa-search text-sp_pink"></i>
