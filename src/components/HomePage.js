@@ -26,13 +26,17 @@ const HomePage = () => {
             ABOUT US
           </h2>
           <p className="text-xs leading-relaxed sm:text-xs md:text-base sm:leading-loose">
-            Lorem ipsum dolor sit amet consectetur. Neque id eget porttitor
-            fusce volutpat ipsum neque egestas porta. In integer nunc felis
-            neque sed turpis blandit vitae. In imperdiet eget scelerisque cursus
-            mattis quis sed facilisi id. Sed amet non urna at vitae et. Eget at
-            nisi platea accumsan aliquam orci. Ut eu aliquam eget commodo nulla
-            est faucibus justo in. Cras ultrices arcu sociis ipsum nam amet sed
-            lectus consequat
+            Sugar Plum is an FSSAI-certified bakery - where every dessert is
+            hand-crafted with expertise and love! We are a small group of bakers
+            with a shared passion for crafting the finest baked treats.Our love
+            for our craft has taken us on exciting journies into the world of
+            baking. We have worked with some of the most celebrated masters in
+            the field. And now we are excited to have yet another magical
+            journey together!<br /> We aim to spread the magical happiness of
+            sweet delights using the highest quality ingredients and perfection
+            honed by years of practice to bake the most delectable cakes,
+            pastries, cupcakes, and more! Sugar Plum is our love letter to a
+            lifelong passion and a heaven for dessert lovers of all ages!
           </p>
         </div>
       </div>
