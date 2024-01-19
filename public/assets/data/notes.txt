@@ -18,7 +18,6 @@ Message optional. Weight determines the base price.
 Things that need work:
 
 color scheme and nav logo redesign -> important, logo design done, color scheme needs some work
-Product Magnify not working -> important
 Category page side banner - resize + change banner with link -> kinda done ( created 2 banners for menu link)
 Homepage custom form on submit and negative checks
 Fix security issues and check performance
@@ -35,6 +34,7 @@ Responsive behavior -> important -> primary done
 Footer responsive -> important! -> kinda done
 Cart hover / indicate items present -> important -> done
 Product page negative checks -> important -> made init for mandatory fields so no need for neg check -> done
+Product Magnify not working -> important, Used a zoom lib instead -> done
 
 
 Responsive design:
@@ -58,8 +58,3 @@ ProductPage:
     contents - done for now.
 
 
-About Us:
-
-Sugar Plum is an FSSAI-certified bakery - where every dessert is hand-crafted with expertise and love!
-We are a small group of bakers with a shared passion for crafting the finest baked confections.
-Our love for our craft has taken us on individual journeys working with some of the most celebrated masters in the field and eventually led to our paths meeting. Our vision is to spread the magical happiness of sweet delights using the highest quality ingredients and perfection honed by years of practice to bake the most delectable cakes, pastries, cupcakes, and more! Sugar Plum is our love letter to our lifelong passion and a heaven for desert lovers of all ages!

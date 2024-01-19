@@ -1,29 +1,19 @@
-import React from 'react';
-import ReactImageMagnify from 'react-image-magnify';
+import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
-const ProductMagnify = ({imgSrc, imgSrcSmall}) => {
+const ProductMagnify = ({ imgSrc, imgTitle }) => {
   return (
-    <div className='h-[300px] w-[300px] md:h-[500px] md:w-[500px]'>
-    <ReactImageMagnify 
-    {...{
-        smallImage: {
-            alt: 'Red Velvet',
-            src: imgSrcSmall,
-            isFluidWidth: true
-        },
-        largeImage: {
-            src: imgSrc,
-            width: 900,
-            height: 900
-        },
-        enlargedImageContainerDimensions: {
-          width: '100%',
-          height: '100%'
-        }
-    }}
-    />
+    <div className="h-[300px] w-[300px] md:h-[500px] md:w-[500px]">
+      <Zoom>
+        <img
+          alt={imgTitle}
+          src={imgSrc}
+          width="500"
+        />
+      </Zoom>
     </div>
-  )
-}
+  );
+};
 
 export default ProductMagnify;

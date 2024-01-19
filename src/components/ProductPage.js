@@ -111,7 +111,7 @@ const ProductPage = () => {
             className="h-[50px] md:h-[auto]"
           />
         </div>
-        <ProductMagnify imgSrc={product.image} imgSrcSmall={product.imageMedium}/>
+        <ProductMagnify imgSrc={product.image} imgTitle={product.itemName}/>
       </div>
       <ProductInfo
         product={product}
