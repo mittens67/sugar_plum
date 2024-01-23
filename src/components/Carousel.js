@@ -33,7 +33,7 @@ const Carousel = () => {
           <Link to={`/category/menu`}>
             <Button2
               text={`Explore Menu >`}
-              customClass="absolute text-[10px] sm:text-sm top-[40%] left-[5%] hover:text-sp_pink "
+              customClass="absolute text-[10px] sm:text-sm top-[40%] left-[5%] hover:text-secondary-500 "
             />
           </Link>
         </SwiperSlide>
@@ -42,7 +42,7 @@ const Carousel = () => {
           <Link to={`/category/occasions`}>
             <Button2
               text={`< View Collection`}
-              customClass="absolute text-[10px] sm:text-sm bottom-[42%] right-[10%] text-white  hover:text-sp_pink"
+              customClass="absolute text-[10px] sm:text-sm bottom-[42%] right-[10%] text-primary-100  hover:text-secondary-500"
             />
           </Link>
         </SwiperSlide>

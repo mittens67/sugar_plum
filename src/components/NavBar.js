@@ -27,18 +27,18 @@ const NavBar = () => {
     <div className="relative">
       <div
         ref={menuRef}
-        className="hidden fixed h-[100%] w-[100%] top-0 z-50 border bg-sugarplum-sp_red_pink text-white border-pink-400"
+        className="hidden fixed h-[100%] w-[100%] top-0 z-50 bg-secondary-200 text-text-50"
       >
         <FaX
-          className="w-[30px] h-[auto] sm:w-[35px] absolute right-[30px] top-6 hover:text-black cursor-pointer"
+          className="w-[30px] h-[auto] sm:w-[35px] absolute right-[30px] top-6 hover:text-text-700 cursor-pointer"
           onClick={closeMenu}
         />
         <div className="flex flex-col justify-center items-center h-[70%] gap-6 text-2xl font-bold font-inter">
           <Link to={`/category/menu`} onClick={closeMenu}>
-            <div className="pr-10 hover:text-black transition-all">Menu</div>
+            <div className="pr-10 hover:text-text-700 transition-all">Menu</div>
           </Link>
           <Link to={`/category/occasions`} onClick={closeMenu}>
-            <div className="pr-10 hover:text-black transition-all">
+            <div className="pr-10 hover:text-text-700 transition-all">
               Occasions
             </div>
           </Link>
@@ -46,13 +46,13 @@ const NavBar = () => {
       </div>
 
       <div
-        className="hidden items-center justify-center py-[5px] bg-sugarplum-sp_red_pink"
+        className="hidden items-center justify-center py-[5px] bg-secondary-200"
         ref={searchRef}
       >
         <SearchBar />
       </div>
 
-      <div className="relative bg-sugarplum-background h-[75px] shadow-nav_logo z-10 flex justify-between items-center px-[15px] py-[10px]">
+      <div className="relative bg-primary-200 h-[75px] shadow-type1 z-10 flex justify-between items-center px-[15px] py-[10px]">
         <Link to={`/`} className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <img
             src="/assets/Logo_playfair.png"
@@ -61,17 +61,17 @@ const NavBar = () => {
           />
         </Link>
         <FaBars
-          className="w-[25px] h-[auto] sm:w-[35px] text-sp_pink hover:text-black cursor-pointer"
+          className="w-[25px] h-[auto] sm:w-[35px] text-secondary-500 hover:text-secondary-200 cursor-pointer"
           onClick={showMenu}
         />
-        <div className="flex justify-around items-center text-sp_pink">
+        <div className="flex justify-around items-center text-secondary-500">
           <FaMagnifyingGlass
-            className="w-[20px] h-[auto] sm:w-[30px] hover:text-black cursor-pointer"
+            className="w-[20px] h-[auto] sm:w-[30px] hover:text-secondary-200 cursor-pointer"
             onClick={showSearchBar}
           />
           <Link to={`/bag`} className="relative pl-5">
-            <FaBagShopping className="w-[25px] h-[auto] sm:w-[30px] hover:text-black transition-all" />
-            <div className="bg-pink-300 font-semibold text-center rounded-[50%] text-xs h-[15px] w-[15px] absolute bottom-[-8px] right-[-2px]">
+            <FaBagShopping className="w-[25px] h-[auto] sm:w-[30px] hover:text-secondary-200 transition-all" />
+            <div className="bg-accent-200 font-semibold text-center rounded-[50%] text-xs h-[15px] w-[15px] absolute bottom-[-8px] right-[-2px]">
               {productsNumber}
             </div>
           </Link>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hr = ({customClass}) => {
   return (
-    <hr className={`h-[3px] border-sp_pink ${customClass}`}/>
+    <hr className={`h-[3px] border-secondary-500 ${customClass}`}/>
   )
 }
 

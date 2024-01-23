@@ -4,7 +4,7 @@ const Button1 = ({ text, customClass, onSubmit }) => {
   return (
     <button
       onClick={onSubmit}
-      className={`bg-sugarplum-sp_pink text-white font-bold border rounded-3xl border-white hover:bg-white hover:text-sp_pink hover:border-pink-400 transition-all ${customClass}`}
+      className={`bg-secondary-500 text-primary-100 font-bold border rounded-3xl border-primary-50 hover:bg-secondary-50 hover:text-primary-800 hover:border-secondary-400 transition-all ${customClass}`}
     >
       {text}
     </button>

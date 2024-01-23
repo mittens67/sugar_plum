@@ -8,7 +8,7 @@ const HomePage = () => {
     window.scrollTo(0, 0);
   });
   return (
-    <div className="bg-sugarplum-background">
+    <div className="bg-background-50">
       <Carousel />
       <Hr />
       <div
@@ -22,7 +22,7 @@ const HomePage = () => {
           className="rounded-[50%] h-auto w-[100px] sm:w-[200px] flex-1 sm:px-[60px]"
         />
         <div className="flex-1 px-[20px]">
-          <h2 className="text-sp_pink text-xl font-black sm:text-3xl md:text-4xl sm:font-black py-[20px]">
+          <h2 className="text-secondary-500 text-xl font-black sm:text-3xl md:text-4xl sm:font-black py-[20px]">
             ABOUT US
           </h2>
           <p className="text-xs leading-relaxed sm:text-xs md:text-base sm:leading-loose">
