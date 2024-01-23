@@ -126,4 +126,6 @@ ProductPage:
 
 
 Colors:
-Nav, footer, searchbar, Homepage, carousel, button1, button2,hr, customform,
+Nav, footer, searchbar, Homepage, carousel, button1, button2,hr, customform, CategoryPage, Loader,
+CategoryCard, ProductPage, ProductMagnify, ProductIfo, Selector,Radio, TextBox, InfoBox, 
+CartPage, Empty, CartItems

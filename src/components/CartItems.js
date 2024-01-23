@@ -34,13 +34,6 @@ const CartItems = ({ product }) => {
     packageUnit = `Kg`
   }
 
-  // const packageType =
-  //   product.productType === PRODUCT_SNACK ? `Pieces` : `Weight`;
-  // const packageSize =
-  //   product.productType === PRODUCT_SNACK
-  //     ? product.packageSize * 1
-  //     : product.packageSize * 0.5;
-  // const packageUnit = product.productType === PRODUCT_SNACK ? `Piece` : `Kg`;
   return (
     
       <div className="flex justify-between mt-[15px]">
@@ -52,24 +45,24 @@ const CartItems = ({ product }) => {
             className="h-[80px] mr-[10px] sm:h-[130px] sm:mr-[20px] rounded-lg sm:rounded-xl"
           />
           <div>
-            <h3 className="font-semibold leading-6">{product.itemName}</h3>
-            <p className="font-bold leading-6">
+            <h3 className="font-semibold leading-6 text-secondary-500">{product.itemName}</h3>
+            <p className="font-bold leading-6 text-secondary-500">
               &#x20B9;{product.basePrice * product.packageSize}
             </p>
-            <p className=" text-gray-500">
+            <p className=" text-text-700">
               {packageType}{" "}
-              <span className="text-black">
+              <span className="text-text-900">
                 : {`${productSize} ${packageUnit}`}
               </span>
             </p>
             {product.customFlavor && (
-              <p className=" text-gray-500">
-                Flavor <span className="text-black">: {flavor}</span>
+              <p className=" text-text-700">
+                Flavor <span className="text-text-900">: {flavor}</span>
               </p>
             )}
             {product.message && (
-              <p className=" text-gray-500">
-                Message <span className="text-black">:{product.message}</span>
+              <p className=" text-text-700">
+                Message <span className="text-text-900">:{product.message}</span>
               </p>
             )}
           </div>
@@ -79,7 +72,7 @@ const CartItems = ({ product }) => {
           className="self-center"
           onClick={() => dispatch(removeFromCart(product.id))}
         >
-          <i className="fa fa-trash text-sp_pink cursor-pointer hover:text-black hover:transition-all"></i>
+          <i className="fa fa-trash text-secondary-500 cursor-pointer hover:text-primary-800 hover:transition-all"></i>
         </div>
       </div>
   );

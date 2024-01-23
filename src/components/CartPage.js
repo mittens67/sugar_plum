@@ -25,10 +25,10 @@ const CartPage = () => {
 
   return (
     <div className="flex flex-col mx-[20px] justify-center my-[30px] md:my-[50px] md:flex-row">
-      <div className="bg-sugarplum-container p-[40px] md:mx-[30px] rounded-xl shadow-cat_card min-w-[50%] max-[767px]:mb-[20px]">
+      <div className="bg-primary-200 shadow-type2 p-[40px] md:mx-[30px] rounded-xl min-w-[50%] max-[767px]:mb-[20px]">
         <h2 className="font-bold text-sm">
           My Bag:{" "}
-          <span className="font-medium text-sp_pink">
+          <span className="font-medium text-secondary-300">
             ({productsNumber} {productsNumber === 1 ? `item` : `items`}):
           </span>
         </h2>
@@ -37,8 +37,8 @@ const CartPage = () => {
           return <CartItems key={index} product={product} />;
         })}
       </div>
-      <div className="bg-sugarplum-container p-[30px] rounded-xl shadow-cat_card flex flex-col h-[400px] min-w-[300px]">
-        <h2 className="font-black text-sp_pink sm:text-lg">Order Summary:</h2>
+      <div className="bg-primary-200 shadow-type2 p-[30px] rounded-xl flex flex-col h-[400px] min-w-[300px]">
+        <h2 className="font-black text-secondary-500 sm:text-lg">Order Summary:</h2>
         <div className="text-xs sm:text-sm font-medium my-[40px]">
           <div className="flex justify-between">
             <div>Sub Total :</div>
@@ -62,7 +62,7 @@ const CartPage = () => {
           <Link to={`/category/menu`} className="self-center">
             <Button2
               text={`Continue Shopping`}
-              customClass={`text-xs text-sp_pink hover:text-black transition-all`}
+              customClass={`text-xs text-secondary-400 hover:text-primary-700 transition-all`}
             />
           </Link>
         </div>

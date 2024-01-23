@@ -6,7 +6,7 @@ const override = {
 };
 
 const Loader = () => {
-    const color = "#E63E6D60";
+    const color = "#ba125860";
 
   return (
     <div className="min-h-[80vh] flex flex-1 items-center">

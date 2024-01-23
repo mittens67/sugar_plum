@@ -102,7 +102,7 @@ const ProductPage = () => {
   // if (1) return <Loader />
 
   return (
-    <div className="mx-[10px] md:px-[50px] py-[20px] lg:py-[100px] flex flex-col items-start lg:items-start lg:justify-start lg:flex-row bg-sugarplum-background">
+    <div className="mx-[10px] md:px-[50px] py-[20px] lg:py-[100px] flex flex-col items-start lg:items-start lg:justify-start lg:flex-row">
       <div className="flex flex-col-reverse  md:flex-row w-[360]">
         <div className="mt-[10px] md:mr-[10px] md:mt-0">
           <img

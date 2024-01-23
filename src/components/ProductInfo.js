@@ -24,13 +24,13 @@ const ProductInfo = ({
 
   return (
     <div className="flex-1 flex flex-col self-start md:mx-[30px]">
-      <h1 className="font-black text-base md:text-xl leading-6 text-sp_pink">
+      <h1 className="font-black text-base md:text-xl leading-6 text-secondary-500">
         {product.itemName}
       </h1>
       <p className="font-extrabold text-xs md:text-sm leading-9">
         {product.avgRating}
-        <i className="fa-solid fa-star text-sp_yellow m-[2px]"></i>{" "}
-        <span className="font-normal text-xs text-sp_pink">
+        <i className="fa-solid fa-star text-accent-300 m-[2px]"></i>{" "}
+        <span className="font-normal text-xs text-secondary-600">
           ({product.ratings} reviews)
         </span>
       </p>
@@ -57,7 +57,7 @@ const ProductInfo = ({
           title={`Message`}
           placeholder={`Message upto 20 characters......`}
           containerClass={`mt-[20px]`}
-          textAreaClass={`border border-pink-300 rounded focus:outline-none focus:border-pink-500 text-sm md:text-base text-sp_pink`}
+          textAreaClass={`text-secondary-500 border border-secondary-300 rounded focus:outline-none focus:border-secondary-500 text-sm md:text-base`}
           maxLength={20}
           message={message}
           changeMessage={changeMessage}

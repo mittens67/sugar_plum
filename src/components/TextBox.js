@@ -8,7 +8,7 @@ const TextBox = ({ title, placeholder, rows, cols, containerClass, textAreaClass
         placeholder={placeholder}
         rows={rows}
         cols={cols}
-        className={`my-[10px] w-[90%] px-[5px] placeholder-sp_pink resize-none  ${textAreaClass}`}
+        className={`my-[10px] w-[90%] px-[5px] placeholder-secondary-100 resize-none  ${textAreaClass}`}
         maxLength={maxLength}
         value={message}
         onChange={e => changeMessage(e.target.value)}

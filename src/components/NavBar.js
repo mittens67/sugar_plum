@@ -52,7 +52,7 @@ const NavBar = () => {
         <SearchBar />
       </div>
 
-      <div className="relative bg-primary-200 h-[75px] shadow-type1 z-10 flex justify-between items-center px-[15px] py-[10px]">
+      <div className="relative bg-primary-50 h-[75px] shadow-type1 z-10 flex justify-between items-center px-[15px] py-[10px]">
         <Link to={`/`} className="absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <img
             src="/assets/Logo_playfair.png"

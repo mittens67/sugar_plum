@@ -24,11 +24,6 @@ const CategoryPage = () => {
         <source media="(min-width: 1024px)" srcSet="/assets/menu.png" />
         <img src="/assets/menu_small.png" alt="Banner" className="max-h-[700px] w-[auto]" />
       </picture>
-      {/* <img
-        srcSet="/assets/menu_small.png 360w, , /assets/menu.png 1024w"
-        alt="tep"
-        className="lg:h-[700px] lg:w-[auto] lg:self-start lg:block"
-      /> */}
       <div className="grid grid-cols-2 max-[480px]:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
         {products.map((product) => {
           return (

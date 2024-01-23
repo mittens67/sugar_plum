@@ -115,7 +115,7 @@ module.exports = {
       },
       boxShadow: {
         type1: "0px 4px 4px 0px rgba(230, 62, 109, 0.18);",
-        cat_card: "4px 4px 4px 0px rgba(230, 62, 109, 0.18);",
+        type2: "4px 4px 4px 0px rgba(230, 62, 109, 0.18);",
       },
       borderColor: {
         sugarplum: {
