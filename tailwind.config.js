@@ -68,46 +68,7 @@ module.exports = {
           800: '#5d3009',
           900: '#2e1805',
           950: '#170c02',
-        },
-        sugarplum: {
-          background: "#EFF6FB",
-          sp_pink: "#E63E6D",
-          sp_pink_transparent: "#E63E6D30",
-          yellow: "#FFE604",
-          container: "#E6F2FC",
-          footer_bg: "#090816",
-          sp_red_pink: "#AA2A4E",
-          sp_black: "#111111",
-          black: "#3d3d3d",
-          pink: "#ff005f",
-          purple: " 	#982364",
-          peach: "#e4b2ab",
-          white: "#f3efe8",
-        },
-        spBlack: "#3d3d3d",
-        spPink: "#ff005f",
-        spPurple: " 	#982364",
-        spPeach: "#e4b2ab",
-        spWhite: "#f3efe8",
-        spBlue: "#a7c2cc"
-      },
-      textColor: {
-        sugarplum: {
-          black: "#3d3d3d",
-          pink: "#ff005f",
-          purple: " 	#982364",
-          peach: "#e4b2ab",
-          white: "#f3efe8",
-        },
-        footer_color: "#F3C5E0",
-        footer_pink: "#F80091",
-        sp_pink: "#E63E6D",
-        sp_yellow: "#ECD60A",
-        spBlack: "#3d3d3d",
-        spPink: "#ff005f",
-        spPurple: " 	#982364",
-        spPeach: "#e4b2ab",
-        spWhite: "#f3efe8"
+        }
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -116,39 +77,7 @@ module.exports = {
       boxShadow: {
         type1: "0px 4px 4px 0px rgba(230, 62, 109, 0.18);",
         type2: "4px 4px 4px 0px rgba(230, 62, 109, 0.18);",
-      },
-      borderColor: {
-        sugarplum: {
-          black: "#3d3d3d",
-          pink: "#ff005f",
-          purple: " 	#982364",
-          peach: "#e4b2ab",
-          white: "#f3efe8",
-        },
-        sp_pink: "#E63E6D",
-        sp_red_pink: "#AA2A4E",
-        spBlack: "#3d3d3d",
-        spPink: "#ff005f",
-        spPurple: " 	#982364",
-        spPeach: "#e4b2ab",
-        spWhite: "#f3efe8"
-      },
-      placeholderColor: {
-        sugarplum: {
-          black: "#3d3d3d",
-          pink: "#ff005f",
-          purple: " 	#982364",
-          peach: "#e4b2ab",
-          white: "#f3efe8",
-        },
-        sp_pink: "#E63E6D60",
-        sp_red_pink: "#AA2A4E",
-        spBlack: "#3d3d3d",
-        spPink: "#ff005f",
-        spPurple: " 	#982364",
-        spPeach: "#e4b2ab",
-        spWhite: "#f3efe8"
-      },
+      }
     },
   },
   plugins: [],
