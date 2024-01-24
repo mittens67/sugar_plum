@@ -19,7 +19,7 @@ const HomePage = () => {
           loading="lazy"
           src="/assets/small_version_about.jpg"
           alt="about"
-          className="rounded-[50%] h-auto w-[100px] sm:w-[200px] flex-1 sm:px-[60px]"
+          className="rounded-[50%] h-auto w-[300px] md:w-[200px] flex-1 sm:px-[60px]"
         />
         <div className="flex-1 px-[20px]">
           <h2 className="text-secondary-500 text-xl font-black sm:text-3xl md:text-4xl sm:font-black py-[20px]">
