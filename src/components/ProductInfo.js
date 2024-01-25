@@ -68,6 +68,7 @@ const ProductInfo = ({
         info={product.info}
         containerClass={`my-[20px]`}
       />
+      <InfoBox title={`Product Description:`} info={product.description} containerClass={`my-[10px]`} />
       <Link to={`/bag`}>
         <Button1 text={buttonText} customClass={"w-[200px] py-[5px] text-sm md:text-base"} onSubmit={onSubmitHandler}/>
       </Link>
