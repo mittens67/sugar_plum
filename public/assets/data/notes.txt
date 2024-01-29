@@ -17,7 +17,6 @@ Message optional. Weight determines the base price.
 
 Things that need work:
 
-Homepage custom form on submit and negative checks
 Fix security issues and check performance
 
 //Less important
@@ -35,6 +34,7 @@ Product page negative checks -> important -> made init for mandatory fields so n
 Product Magnify not working -> important, Used a zoom lib instead -> done
 color scheme and nav logo redesign -> important, logo design done, color scheme needs some work -> done for now
 Category page side banner - resize + change banner with link -> done for now, redesign later
+Homepage custom form on submit and negative checks -> done, maybe make the toastify a utility later
 
 
 Responsive design:
