@@ -19,5 +19,6 @@ export { default as Hr } from "./Hr";
 export { default as ProductPage } from "./ProductPage";
 export { default as ProductInfo } from "./ProductInfo";
 export { default as ProductMagnify } from "./ProductMagnify";
-export { default as Loader } from "./Loader";
 export { default as SearchResultsPage } from "./SearchResultsPage";
+export { default as Loader } from "./Loader";
+export { default as Page404 } from "./Page404";

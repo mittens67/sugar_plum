@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { HomePage, NavBar, Footer, CategoryPage, ProductPage, CartPage, SearchResultsPage } from './components';
+import { HomePage, NavBar, Footer, CategoryPage, ProductPage, CartPage, SearchResultsPage,Page404 } from './components';
 
 const App = () => {
     return <div className='flex flex-col min-h-screen'> {/*Need this for footer mt-auto to work and fix footer to bottom */}
@@ -7,10 +7,11 @@ const App = () => {
             <NavBar />
             <Routes>
                 <Route exact path='/' element={<HomePage />}/>
-                <Route exact path='/search' element={<SearchResultsPage />}/>
-                <Route exact path='/category/:type' element={<CategoryPage/>} />
-                <Route exact path='/product/:id' element={<ProductPage/>} />
-                <Route exact path='/bag' element={<CartPage />} />
+                <Route path='/search' element={<SearchResultsPage />}/>
+                <Route path='/category/:type' element={<CategoryPage/>} />
+                <Route path='/product/:id' element={<ProductPage/>} />
+                <Route path='/bag' element={<CartPage />} />
+                <Route path='/*' element={<Page404 />} />
             </Routes>
             <Footer />
         </BrowserRouter>
