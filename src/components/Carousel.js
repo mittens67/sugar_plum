@@ -41,7 +41,7 @@ const Carousel = () => {
               media="(min-width: 640px)"
               srcSet={`/assets/banners/Banner2.jpg`}
             />
-            <img src={`/assets/banners/Banner2_mobile.jpg`} alt="Banner" className="w-[100%]" />
+            <img src={`/assets/banners/Banner2_mobile.jpg`} alt="Banner" className="w-[100%]"/>
           </picture>
           {/* <img src={"../assets/banners/Banner2.jpg"} alt="Carousel POR" /> */}
           <Link to={`/category/menu`}>

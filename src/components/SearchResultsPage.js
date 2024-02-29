@@ -1,8 +1,8 @@
 import { useSearchParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { callApi } from "../utils/CallApi";
-import { CategoryCard } from "./";
-import { Empty } from "./";
+import CategoryCard from "./CategoryCard";
+import Empty from "./Empty";
 
 const SearchResultsPage = () => {
   const [searchParams] = useSearchParams();
