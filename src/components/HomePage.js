@@ -17,7 +17,8 @@ const HomePage = () => {
       >
         <img
           loading="lazy"
-          src="/assets/small_version_about.jpg"
+          srcSet="/assets/homePage/small_version_about.webp"
+          src="/assets/homePage/small_version_about.jpg"
           alt="about"
           className="rounded-[50%] h-auto w-[300px] md:w-[200px] flex-1 sm:px-[60px]"
         />
@@ -44,7 +45,8 @@ const HomePage = () => {
         <CustomForm customClass="flex-1" />
         <div className="flex-1 max-h-[500px] overflow-hidden">
           <img
-            src="/assets/customForm_small.jpg"
+          srcSet="/assets/homePage/customForm_small.webp"
+            src="/assets/homePage/customForm_small.jpg"
             loading="lazy"
             alt="bake"
             className="h-auto object-contain"

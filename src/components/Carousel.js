@@ -23,9 +23,18 @@ const Carousel = () => {
           <picture className="lg:self-start lg:block">
             <source
               media="(min-width: 640px)"
-              srcSet={`/assets/banners/Banner1.jpg`}
+              srcSet="/assets/homePage/Banner1.webp"
             />
-            <img src={`/assets/banners/Banner1_mobile.jpg`} alt="Banner" className="w-[100%]"/>
+            <source
+              media="(min-width: 350px)"
+              srcSet="/assets/banners/Banner1_mobile.jpg"
+            />
+            <img
+              src="/assets/homePage/Banner1.jpg"
+              alt="Banner"
+              className="w-[100%]"
+              loading="lazy"
+            />
           </picture>
           {/* <img src={"../assets/banners/Banner1.jpg"} alt="Carousel POR" /> */}
           <Link to={`/category/menu`}>
@@ -39,9 +48,18 @@ const Carousel = () => {
           <picture className="lg:self-start lg:block">
             <source
               media="(min-width: 640px)"
-              srcSet={`/assets/banners/Banner2.jpg`}
+              srcSet="/assets/homePage/Banner2.webp"
             />
-            <img src={`/assets/banners/Banner2_mobile.jpg`} alt="Banner" className="w-[100%]"/>
+            <source
+              media="(min-width: 350px)"
+              srcSet="/assets/banners/Banner2_mobile.jpg"
+            />
+            <img
+              src="/assets/homePage/Banner2.jpg"
+              alt="Banner"
+              className="w-[100%]"
+              loading="lazy"
+            />
           </picture>
           {/* <img src={"../assets/banners/Banner2.jpg"} alt="Carousel POR" /> */}
           <Link to={`/category/menu`}>
@@ -55,9 +73,18 @@ const Carousel = () => {
           <picture className="lg:self-start lg:block">
             <source
               media="(min-width: 640px)"
-              srcSet={`/assets/banners/Banner3.jpg`}
+              srcSet="/assets/homePage/Banner3.webp"
             />
-            <img src={`/assets/banners/Banner3_mobile.jpg`} alt="Banner" className="w-[100%]"/>
+            <source
+              media="(min-width: 350px)"
+              srcSet="/assets/banners/Banner3_mobile.jpg"
+            />
+            <img
+              src={`/assets/homePage/Banner3.jpg`}
+              alt="Banner"
+              className="w-[100%]"
+              loading="lazy"
+            />
           </picture>
           {/* <img src={"../assets/banners/Banner3.jpg"} alt="Carousel POR" /> */}
           <Link to={`/category/occasions`}>

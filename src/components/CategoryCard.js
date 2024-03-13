@@ -9,6 +9,7 @@ const CategoryCard = ({itemName, price, avgRating, imgSrc, ratings, id}) => {
         src={imgSrc}
         alt={itemName}
         className="h-[200px] w-[200px] self-center"
+        loading="lazy"
       />
       <Hr customClass={`my-[10px] w-[170px] self-center`}/>
       <div className=" pb-[5px]">

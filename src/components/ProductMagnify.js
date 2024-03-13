@@ -10,6 +10,7 @@ const ProductMagnify = ({ imgSrc, imgTitle }) => {
           alt={imgTitle}
           src={imgSrc}
           width="500"
+          loading="lazy"
         />
       </Zoom>
     </div>

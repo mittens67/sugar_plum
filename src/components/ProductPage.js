@@ -109,6 +109,7 @@ const ProductPage = () => {
             src={product.imageSmall}
             alt="pic1"
             className="h-[50px] md:h-[auto]"
+            loading="lazy"
           />
         </div>
         <ProductMagnify imgSrc={product.image} imgTitle={product.itemName}/>

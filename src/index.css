@@ -23,4 +23,9 @@ body {
     background-color: #e8f9fc;
 }
 
+.lazy-blur {
+    background-size: cover;
+    background-position: center;
+}
+
 
