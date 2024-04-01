@@ -40,7 +40,7 @@ const Carousel = () => {
           <Link to={`/category/menu`}>
             <Button1
               text={`Explore Menu`}
-              customClass="absolute bottom-[30%] inset-x-0 mx-[auto] text-[12px] px-[12px] py-[5px] sm:text-xs sm:px-[100px] sm:py-[10px]"
+              customClass="absolute w-fit bottom-[30%] inset-x-0 mx-[auto] text-[12px] px-[12px] py-[5px] sm:text-xs sm:px-[100px] sm:py-[10px]"
             />
           </Link>
         </SwiperSlide>
